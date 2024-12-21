@@ -1,0 +1,17 @@
+/* Global base properties */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  } 
+  
+  /* App flexbox setup */
+  .Catalog {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: space-around;
+    width: 100vw;
+    padding: 10px;
+  }
