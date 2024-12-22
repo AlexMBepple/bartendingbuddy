@@ -20,13 +20,13 @@ export function StoreItem(props){
                 <Card.Title className="d-flex justify-content-between align-items-baseline mb-4" >
                     <span className="fs-2"> {props.name}</span>
                 </Card.Title>
-                    <p>
+                    <div>
                         {props.steps.map(step =>(
-                            <p key={step.key}>
-                                <p>{step}</p>
-                            </p>
+                            <div key={step.key}>
+                                <div>{step}</div>
+                            </div>
                         ))}
-                    </p>
+                    </div>
             </Card.Body>
         </Card>
         )
