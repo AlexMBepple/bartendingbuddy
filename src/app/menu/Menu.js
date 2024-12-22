@@ -2,8 +2,7 @@
 import React, { Component } from 'react';
 import { Col, Row, InputGroup, Form } from 'react-bootstrap';
 import { StoreItem } from './StoreItem';
-import './menu.css';
-import { imageConfigDefault } from 'next/dist/shared/lib/image-config';
+import './Menu.css';
 
 class Menu extends Component {
 
