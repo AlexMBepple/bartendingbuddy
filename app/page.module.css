@@ -126,7 +126,11 @@
 }
 
 /* Mobile */
-@media (max-width: 700px) {
+@media (max-width: 500px) {
+  .Menu {
+    padding-left: 100px;
+  }
+  
   .content {
     padding: 4rem;
   }
@@ -203,7 +207,7 @@
 }
 
 /* Tablet and Smaller Desktop */
-@media (min-width: 701px) and (max-width: 1120px) {
+@media (min-width: 501px) and (max-width: 1120px) {
   .grid {
     grid-template-columns: repeat(2, 50%);
   }
