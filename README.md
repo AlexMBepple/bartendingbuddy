@@ -1,3 +1,5 @@
+Deployed to Github Pages: [BartenderBuddy](https://alexmbepple.github.io/bartendingbuddy/)
+
 This Project was Developed quickly to compensate for a lack of bartending experience when I was asked to cover a tuesday shift at my buddies bar.
 
 Searching recipies in the bar book that was not alphabetized or resilient to the conditions of a wet bar was causing delays between orders.

@@ -444,7 +444,7 @@ class Menu extends Component {
                         "1 dash Cinnamon",
                         "Build in rocks glass",
                         "Add tequila, and creme de cassis to rocks glass with ice",
-                        "Squeeze in juioce of half a lime",
+                        "Squeeze in juice of half a lime",
                         "Fill with ginger ale, Floating the lime rind in the glass",
                         "Pour second 0.25oz of tequila in lime rind",
                         "ignight the cinamon falling over the drink in front of guest"
