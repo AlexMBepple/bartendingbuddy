@@ -13,7 +13,8 @@ export function StoreItem(props){
             <Card.Img
                 variant="top"
                 src={props.imageURL}
-                height="200px"
+                height="300px"
+                width="300px"
                 style={{ objectFit: "cover", cursor: 'pointer'}}
             />
             <Card.Body className="d-flex flex-column">
