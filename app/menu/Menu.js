@@ -1,6 +1,5 @@
 'use client'
-import React, { Component } from 'react';
-import { Col, Row, InputGroup, Form } from 'react-bootstrap';
+import { Component } from 'react';
 import { StoreItem } from './StoreItem';
 import './Menu.css';
 
@@ -1157,7 +1156,6 @@ class Menu extends Component {
         };
     }
 
-    
     updateFilter(event) {
         this.setState({ filterText: event.target.value });
     }
@@ -1165,16 +1163,8 @@ class Menu extends Component {
     render() {
         return (
             <div className='Menu'>
-                <InputGroup size="lg" className='InputGroup'>
-                    <Form.Control
-                        aria-label="Large"
-                        aria-describedby="inputGroup-sizing-sm"
-                        value={this.state.filterText}
-                        placeholder="Search..."
-                        onChange={this.updateFilter.bind(this)}
-                    />
-                </InputGroup>
-                <Row md={2} lg={3} xl={4} className="g-3">
+                <input type="search" size="lg" className='InputGroup' onChange={this.updateFilter.bind(this)} placeholder="Search..."/>
+                <row md={2} lg={3} xl={4} className="g-3">
                     {this.state.data.filter((item) => {
                         if (this.state.filterText === "")
                             return item;
@@ -1182,12 +1172,10 @@ class Menu extends Component {
                             item.name.toLowerCase().includes(this.state.filterText.toLowerCase())
                         )
                             return item;
-                    }).map(item => (
-                        <Col key={item.id}>
-                            <StoreItem {...item} key={item.id}/>
-                        </Col>
+                    }).map((item, i) => (
+                        <StoreItem {...item} key={i}/>
                     ))}
-                </Row>
+                </row>
             </div>
         )
     }

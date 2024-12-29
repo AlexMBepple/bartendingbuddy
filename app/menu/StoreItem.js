@@ -1,5 +1,5 @@
 'use client'
-import { Card } from "react-bootstrap";
+import { Image } from 'next/image';
 
 export function StoreItem(props){
     var selected = true;
@@ -9,27 +9,17 @@ export function StoreItem(props){
     }
 
     return (
-        <Card>
-            <Card.Img
-                variant="top"
+        <section id={props.name}>
+            <img 
                 src={props.imageURL}
+                alt={props.name}
                 height="300px"
                 width="300px"
                 style={{ objectFit: "cover", cursor: 'pointer'}}
             />
-            <Card.Body className="d-flex flex-column">
-                <Card.Title className="d-flex justify-content-between align-items-baseline mb-4" >
-                    <span className="fs-2"> {props.name}</span>
-                </Card.Title>
-                    <div>
-                        {props.steps.map(step =>(
-                            <div key={step.key}>
-                                <div>{step}</div>
-                            </div>
-                        ))}
-                    </div>
-            </Card.Body>
-        </Card>
+            <h1 className="drink-name"> {props.name}</h1>
+            {props.steps.map((step, i) =>(<p key={i}>{step}</p>))}
+        </section>
         )
 
 }
