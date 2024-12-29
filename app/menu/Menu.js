@@ -1184,7 +1184,7 @@ class Menu extends Component {
                             return item;
                     }).map(item => (
                         <Col key={item.id}>
-                            <StoreItem {...item} />
+                            <StoreItem {...item} key={item.id}/>
                         </Col>
                     ))}
                 </Row>
