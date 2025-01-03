@@ -5,7 +5,7 @@ import Menu from './menu/Menu'
 export default function Home() {
   return (
     <main className={styles.main}>
-      <h1>Bartender Buddy</h1>
+      <h1>BARTENDER BUDDY</h1>
       <Menu></Menu>
     </main>
   )

@@ -1,5 +1,7 @@
 'use client'
 import { Image } from 'next/image';
+import './StoreItem.css';
+
 
 export function StoreItem(props){
     var selected = true;
@@ -15,10 +17,11 @@ export function StoreItem(props){
                 alt={props.name}
                 height="300px"
                 width="300px"
-                style={{ objectFit: "cover", cursor: 'pointer'}}
             />
-            <h1 className="drink-name"> {props.name}</h1>
-            {props.steps.map((step, i) =>(<p key={i}>{step}</p>))}
+            <h2 className="drink-name"> {props.name}</h2>
+            <ul>
+            {props.steps.map((step, i) =>(<li key={i}>{step}</li>))}
+            </ul>
         </section>
         )
 

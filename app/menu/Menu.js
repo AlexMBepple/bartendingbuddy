@@ -12,7 +12,7 @@ class Menu extends Component {
             data: [
                 {
                     id: 1,
-                    imageURL: "https://thumbs.dreamstime.com/z/sweet-red-coctail-mint-leaves-sangria-fruits-berries-isolated-hand-drawn-watercolor-illustration-white-background-126405104.jpg",
+                    imageURL: "https://thetockablog.com/wp-content/uploads/2023/12/img_9763.jpg?w=1280",
                     name: "Long Island Iced Tea",
                     steps: [
                         "Ice a tall glass",
@@ -1164,7 +1164,7 @@ class Menu extends Component {
         return (
             <div className='Menu'>
                 <input type="search" size="lg" className='InputGroup' onChange={this.updateFilter.bind(this)} placeholder="Search..."/>
-                <row md={2} lg={3} xl={4} className="g-3">
+
                     {this.state.data.filter((item) => {
                         if (this.state.filterText === "")
                             return item;
@@ -1175,7 +1175,6 @@ class Menu extends Component {
                     }).map((item, i) => (
                         <StoreItem {...item} key={i}/>
                     ))}
-                </row>
             </div>
         )
     }
