@@ -7,7 +7,7 @@ class Menu extends Component {
 
     constructor(props) {
         super(props);
-        this.state = 
+        this.state =
         {
             data: [
                 {
@@ -25,7 +25,8 @@ class Menu extends Component {
                         "1oz Lemon juice",
                         "Top with coke",
                         "Garnish: Lemon"
-                    ]
+                    ],
+                    tags: []
                 },
                 {
                     id: 2,
@@ -39,7 +40,8 @@ class Menu extends Component {
                         "shake",
                         "double strain",
                         "Garnish: Olive"
-                    ]
+                    ],
+                    tags: []
                 },
                 {
                     id: 3,
@@ -50,7 +52,8 @@ class Menu extends Component {
                         "250ml Honey",
                         "750ml Pear juice",
                         "1/2 cup Lime Juice"
-                    ]
+                    ],
+                    tags: []
                 },
                 {
                     id: 4,
@@ -63,7 +66,8 @@ class Menu extends Component {
                         "Smoke in Josper fat lowest temp possible for 1 hour",
                         "finish dehydrating in standard deck overnight. About 12hrs, no temp just heat from pilot light.",
                         "Store in dry storage, (30 day shelf life)"
-                    ]
+                    ],
+                    tags: []
                 },
                 {
                     id: 5,
@@ -75,7 +79,8 @@ class Menu extends Component {
                         "1:1 sugar to water",
                         "Bring to a boil",
                         "Cool"
-                    ]
+                    ],
+                    tags: []
                 },
                 {
                     id: 6,
@@ -93,7 +98,8 @@ class Menu extends Component {
                         "when the ice is flaked, using a small ice cream scoop, form balls of granita slush and lay on a frozen baking tray in the freezer for service",
                         "You may need to press the balls into the scoop to form the balls tighter.",
                         "Store in freezer (7 day shelf life)"
-                    ]
+                    ],
+                    tags: []
                 },
                 {
                     id: 7,
@@ -105,7 +111,8 @@ class Menu extends Component {
                         "Smoke in josper at low heat for 2 hours, stirring every 30 minutes",
                         "let mix cool",
                         "Store dry in airtight container"
-                    ]
+                    ],
+                    tags: []
                 },
                 {
                     id: 8,
@@ -118,7 +125,8 @@ class Menu extends Component {
                         "Let steep for 2 hours",
                         "After 2 hours remove tea bags and strain any tea leaves or solids out of the bourbon. ",
                         "Note - ratio of tea to bourbon is 1 tea per 4oz of bourbon"
-                    ]
+                    ],
+                    tags: []
                 },
                 {
                     id: 9,
@@ -131,7 +139,8 @@ class Menu extends Component {
                         "Bring water, sugar, and ginger to a boil",
                         "Strain and let cool",
                         "Store in Fridge"
-                    ]
+                    ],
+                    tags: []
                 },
                 {
                     id: 10,
@@ -147,7 +156,8 @@ class Menu extends Component {
                         "Add alcohol",
                         "Top with whipped cream"
 
-                    ]
+                    ],
+                    tags: []
                 },
                 {
                     id: 11,
@@ -165,7 +175,8 @@ class Menu extends Component {
                         "Add alcohol",
                         "Top with whipped cream",
                         "Dust with cinnamon"
-                    ]
+                    ],
+                    tags: []
                 },
                 {
                     id: 12,
@@ -184,7 +195,8 @@ class Menu extends Component {
                         "Add alcohol",
                         "Top with whipped cream",
                         "Garnish with cherry on a pick"
-                    ]
+                    ],
+                    tags: []
 
                 },
                 {
@@ -200,7 +212,8 @@ class Menu extends Component {
                         "Add hot water",
                         "Glass Mug/Hot drink setup",
                         "Serve and instruct guest to press after 3 minutes"
-                    ]
+                    ],
+                    tags: []
 
                 },
                 {
@@ -218,7 +231,8 @@ class Menu extends Component {
                         "Add whiskey",
                         "Top with whipped cream",
                         "Plate and serve"
-                    ]
+                    ],
+                    tags: []
                 },
                 {
                     id: 15,
@@ -236,7 +250,8 @@ class Menu extends Component {
                         "Add alcohol",
                         "Top with whipped cream",
                         "Garnish with orange half wheel"
-                    ]
+                    ],
+                    tags: []
                 },
                 {
                     id: 16,
@@ -251,7 +266,8 @@ class Menu extends Component {
                         "In a snifter glass, pirt in alcohol",
                         "Place snifter resting on the glass mug",
                         "Plate and serve"
-                    ]
+                    ],
+                    tags: []
                 },
                 {
                     id: 17,
@@ -269,7 +285,8 @@ class Menu extends Component {
                         "Shake and strain into a chilled flute glass",
                         "add Stellers Jay Brut",
                         "Garnish placed inside cocktail - Orange wheel smoked in Josper"
-                    ]
+                    ],
+                    tags: []
                 },
                 {
                     id: 18,
@@ -287,7 +304,8 @@ class Menu extends Component {
                         "Shake and strain into a rocks glass with new ice",
                         "Top with soda water",
                         "Garnish with cucumber on rim"
-                    ]
+                    ],
+                    tags: []
                 },
                 {
                     id: 19,
@@ -305,7 +323,8 @@ class Menu extends Component {
                         "Shake without Ice",
                         "Add ice and shake till chilled",
                         "Strain into rocks glass"
-                    ]
+                    ],
+                    tags: []
                 },
                 {
                     id: 20,
@@ -325,7 +344,8 @@ class Menu extends Component {
                         "Shake and strain into chilled coupe glass",
                         "add Steller Jays Brut",
                         "Garnish placed inside cocktail - Rosemary sprig with cranberries"
-                    ]
+                    ],
+                    tags: []
                 },
                 {
                     id: 21,
@@ -349,7 +369,8 @@ class Menu extends Component {
                         "Garnish with Josper orange resting on the rim with 8 cranberries in the glass",
                         "if cocktail is a double times Dark Rum and Grand Marnier by 2"
 
-                    ]
+                    ],
+                    tags: []
                 },
                 {
                     id: 22,
@@ -370,7 +391,8 @@ class Menu extends Component {
                         "Shake and strain into rocks glass with new ice",
                         "Top with soda",
                         "Garnish with apple fan"
-                    ]
+                    ],
+                    tags: []
                 },
                 {
                     id: 23,
@@ -389,7 +411,8 @@ class Menu extends Component {
                         "Dry Shake Egg White",
                         "Add rest of ingredients to shaker with ice",
                         "Shake and strain into coupe glass",
-                    ]
+                    ],
+                    tags: []
                 },
                 {
                     id: 24,
@@ -407,7 +430,8 @@ class Menu extends Component {
                         "Garnish with rosemary sprig and orange peel",
                         "Place in smoke box and smoke with house made Josper Smoke chips",
                         "Bring box with coctail to table and open in front of guest"
-                    ]
+                    ],
+                    tags: []
                 },
                 {
                     id: 25,
@@ -428,7 +452,8 @@ class Menu extends Component {
                         "Top with ginger beer",
                         "Give the cocktail a quick agitaiton with a bar spoon to mix the ginger beer",
                         "Garnish with a cucumber slice and a mint sprig"
-                    ]
+                    ],
+                    tags: []
                 },
                 {
                     id: 26,
@@ -447,7 +472,8 @@ class Menu extends Component {
                         "Fill with ginger ale, Floating the lime rind in the glass",
                         "Pour second 0.25oz of tequila in lime rind",
                         "ignight the cinamon falling over the drink in front of guest"
-                    ]
+                    ],
+                    tags: []
                 },
                 {
                     id: 27,
@@ -463,7 +489,8 @@ class Menu extends Component {
                         "Pour all ingredients into shaker with ice",
                         "Shake and strain into chilled martini glass",
                         "Garnish with 3 pink grapefruit granita balls"
-                    ]
+                    ],
+                    tags: []
                 },
                 {
                     id: 28,
@@ -479,13 +506,14 @@ class Menu extends Component {
                         "Add all ingredients to shaker with ice",
                         "Shake and strain into rocks glass with new ice",
                         "Garnish with orange twist"
-                    ]
+                    ],
+                    tags: []
                 },
                 {
                     id: 29,
                     imageURL: "https://www.todocanada.ca/wp-content/uploads/Negroni-1.png",
                     name: "Edmonton Negroni",
-                    steps:[
+                    steps: [
                         "1oz Victoria Oaken Gin",
                         "1oz Grahms 10yr Tawny Port",
                         "1oz Campari",
@@ -497,7 +525,8 @@ class Menu extends Component {
                         "Stir until well chilled and properly diluted (~15 seconds)",
                         "Strain into rinsed glass over a 2x2 Kodama ice cube",
                         "Garnish with Josper smoked orange wheel"
-                    ]
+                    ],
+                    tags: []
                 },
                 {
                     id: 30,
@@ -516,7 +545,8 @@ class Menu extends Component {
                         "Strain into chilled coupe glass",
                         "Using a hard coaster or card stock paper, cover 7/8ths of the glass and dust nutmeg over the exposed portion",
                         "Garnish with star anise in the middle of the glass"
-                    ]
+                    ],
+                    tags: []
                 },
                 {
                     id: 31,
@@ -532,7 +562,8 @@ class Menu extends Component {
                         "Stir until well chilled and properly diluted (~15 seconds)",
                         "Strain into rocks glass over a 2x2 Kodama ice cube",
                         "Garnish with half orange wheel"
-                    ]
+                    ],
+                    tags: []
                 },
                 {
                     id: 32,
@@ -544,7 +575,8 @@ class Menu extends Component {
                         "0.5 oz Macalan Triple Cask 12yr",
                         "Build in glencairn glasses",
                         "theres a story behind each scotch, ask your server for more information"
-                    ]
+                    ],
+                    tags: []
                 },
                 {
                     id: 33,
@@ -563,7 +595,8 @@ class Menu extends Component {
                         "add all ingredients to glass with ice",
                         "Stir",
                         "Garnish with celery stick and lime wheel"
-                    ]
+                    ],
+                    tags: []
                 },
                 {
                     id: 34,
@@ -581,7 +614,8 @@ class Menu extends Component {
                         "Strain into rocks glass",
                         "Garnish with Josper Smoked Orange Wheel"
 
-                    ]
+                    ],
+                    tags: []
                 },
                 {
                     id: 35,
@@ -600,7 +634,8 @@ class Menu extends Component {
                         "Add all ingredients to shaker with ice & 1 dash of 5 spice",
                         "Shake and strain into rocks glass with new ice",
                         "Garnish with orange wheel and 1 dash of 5 spice"
-                    ]
+                    ],
+                    tags: []
                 },
                 {
                     id: 37,
@@ -616,7 +651,8 @@ class Menu extends Component {
                         "Add all ingredients to a mixing glass with ice",
                         "Strain into a rocks glass over an ice orb",
                         "Garnish with flamed orange twist"
-                    ]
+                    ],
+                    tags: []
                 },
                 {
                     id: 38,
@@ -627,7 +663,8 @@ class Menu extends Component {
                         "0.5oz Drambuie",
                         "Build",
                         "Pour over ice in rocks glass"
-                    ]
+                    ],
+                    tags: []
                 },
                 {
                     id: 39,
@@ -644,7 +681,8 @@ class Menu extends Component {
                         "add ice",
                         "Shake and strain into Coupe glass with ice",
                         "Add 3 drops of bitters to the foam"
-                    ]
+                    ],
+                    tags: []
                 },
                 {
                     id: 40,
@@ -663,7 +701,8 @@ class Menu extends Component {
                         "Peel loonie sized orange peel and ignight with a squeeze over the glass",
                         "rub warm orange oils around the rim of the glass",
                         "Drop peel into glass"
-                    ]
+                    ],
+                    tags: []
                 },
                 {
                     id: 41,
@@ -681,7 +720,8 @@ class Menu extends Component {
                         "Add all ingredients to shaker with ice",
                         "Shake and strain into rocks glass with new ice",
                         "Garnish with lime wheel"
-                    ]
+                    ],
+                    tags: []
                 },
                 {
                     id: 42,
@@ -697,7 +737,8 @@ class Menu extends Component {
                         "Stir until well chilled and properly diluted (~15 seconds)",
                         "Strain into rocks glass over a 2x2 Kodama ice cube",
                         "Garnish with orange zest"
-                    ]
+                    ],
+                    tags: []
                 },
                 {
                     id: 43,
@@ -712,7 +753,8 @@ class Menu extends Component {
                         "Add Campari and Sweet Vermouth to glass with one large ice mold",
                         "Top with Steller Jays Brut",
                         "Garnish with Half orange Wheel"
-                    ]
+                    ],
+                    tags: []
                 },
                 {
                     id: 44,
@@ -726,7 +768,8 @@ class Menu extends Component {
                         "Pour all ingredients into mixing glass with ice",
                         "Strain into chilled martini glass",
                         "garnish with a lemon curl"
-                    ]
+                    ],
+                    tags: []
                 },
                 {
                     id: 45,
@@ -743,7 +786,8 @@ class Menu extends Component {
                         "Add ice, rum and top with Soda",
                         "Stir to mix layers",
                         "Garnish with 1 mint leaf, and 1 lime wedge",
-                    ]
+                    ],
+                    tags: []
                 },
                 {
                     id: 46,
@@ -759,7 +803,8 @@ class Menu extends Component {
                         "Add ice and shake",
                         "Strain into chilled Martini glass",
                         "Garnish with 3 olives on pick"
-                    ]
+                    ],
+                    tags: []
                 },
                 {
                     id: 47,
@@ -774,26 +819,28 @@ class Menu extends Component {
                         "Stir untill chilled",
                         "Strain into chilled martini glass",
                         "Garnish with lemon curl"
-                    ]
+                    ],
+                    tags: []
                 },
                 {
-                   id: 48,
-                   imageURL: "https://cdn.loveandlemons.com/wp-content/uploads/2024/04/margarita-recipe.jpg",
-                   name: "Margarita",
-                   steps: [
-                    "0.75oz Sauza Gold Tequila",
-                    "0.25oz Triple Sec",
-                    "1.5oz Agave Syrup",
-                    "1.5oz Lime Juice",
-                    "1 salt Rim",
-                    "1 lime wheel",
-                    "Salt Rim of a rocks Glass",
-                    "Add all ingredients into a shaker with ice",
-                    "Shake",
-                    "Strain into glass with new ice",
-                    "Small pinch of salt over drink",
-                    "Garnish with lime wheel"
-                   ]
+                    id: 48,
+                    imageURL: "https://cdn.loveandlemons.com/wp-content/uploads/2024/04/margarita-recipe.jpg",
+                    name: "Margarita",
+                    steps: [
+                        "0.75oz Sauza Gold Tequila",
+                        "0.25oz Triple Sec",
+                        "1.5oz Agave Syrup",
+                        "1.5oz Lime Juice",
+                        "1 salt Rim",
+                        "1 lime wheel",
+                        "Salt Rim of a rocks Glass",
+                        "Add all ingredients into a shaker with ice",
+                        "Shake",
+                        "Strain into glass with new ice",
+                        "Small pinch of salt over drink",
+                        "Garnish with lime wheel"
+                    ],
+                    tags: []
                 },
                 {
                     id: 49,
@@ -808,7 +855,8 @@ class Menu extends Component {
                         "Stir untill chilled",
                         "Strain into chilled martini glass",
                         "Garnish with lemon curl"
-                    ]
+                    ],
+                    tags: []
                 },
                 {
                     id: 50,
@@ -824,7 +872,8 @@ class Menu extends Component {
                         "Stir untill chilled",
                         "Strain into chilled martini glass",
                         "Garnish with cherry on a pick"
-                    ]
+                    ],
+                    tags: []
                 },
                 {
                     id: 51,
@@ -842,7 +891,8 @@ class Menu extends Component {
                         "Stir untill chilled",
                         "Strain into chilled martini glass",
                         "Garnish with orange peel wrapped cherry on a pick"
-                    ]
+                    ],
+                    tags: []
                 },
                 {
                     id: 52,
@@ -861,7 +911,8 @@ class Menu extends Component {
                         "Shake",
                         "Strain into rimmed rocks glass with new ice",
                         "Garnish with lime wedge on rim"
-                    ]
+                    ],
+                    tags: []
                 },
                 {
                     id: 53,
@@ -878,7 +929,8 @@ class Menu extends Component {
                         "Shake",
                         "Strain into chilled martini glass",
                         "Garnish with 3 beans"
-                    ]
+                    ],
+                    tags: []
                 },
                 {
                     id: 54,
@@ -896,7 +948,8 @@ class Menu extends Component {
                         "Double strain into chilled Champagne coupe",
                         "Add Stellers Jay Brut",
                         "Garnish With Lemon Twist resting on rim"
-                    ]
+                    ],
+                    tags: []
                 },
                 {
                     id: 55,
@@ -913,7 +966,8 @@ class Menu extends Component {
                         "Shake",
                         "Strain into chilled martini glass",
                         "Garnish with a lime wheel on rim"
-                    ]
+                    ],
+                    tags: []
                 },
                 {
                     id: 56,
@@ -931,7 +985,8 @@ class Menu extends Component {
                         "Shake",
                         "Strain into a salt rimmed rocks glass with new ice",
                         "garnish with a lime wedge on the rim"
-                    ]
+                    ],
+                    tags: []
                 },
                 {
                     id: 57,
@@ -949,7 +1004,8 @@ class Menu extends Component {
                         "Wet Shake",
                         "Strain into a single rocks glass with ice",
                         "Garnish with rosemary Sprig"
-                    ]
+                    ],
+                    tags: []
                 },
                 {
                     id: 58,
@@ -964,7 +1020,8 @@ class Menu extends Component {
                         "Stir untill chilled",
                         "Pour into double rocks glass with large ice mould",
                         "Zest orange peel over drink"
-                    ]
+                    ],
+                    tags: []
                 },
                 {
                     id: 59,
@@ -982,7 +1039,8 @@ class Menu extends Component {
                         "Shake",
                         "Fine Strain into brandy glass",
                         "Garnish with mint sprig, fresh raspberry, and anm orange twist"
-                    ]
+                    ],
+                    tags: []
                 },
                 {
                     id: 60,
@@ -995,11 +1053,12 @@ class Menu extends Component {
                         "1 Fever Tree Indian Tonic",
                         "Build in Copa or Tall Collins Glass",
                         "Garnish with a wedge of grapefruit"
-                    ]
+                    ],
+                    tags: []
                 },
                 {
                     id: 61,
-                    imageURL:"https://images.food52.com/QkCFtzV9ROpfH_S-XQ5Ap9qV9F8=/2016x1344/2bb8c2b0-5308-417b-9176-43c68829a65f--2021-0603_sponsored_basil-hayden_passion-fruit-bourbon-sour_recipe_not-branded_3x2_rocky-luten_031.jpg",
+                    imageURL: "https://images.food52.com/QkCFtzV9ROpfH_S-XQ5Ap9qV9F8=/2016x1344/2bb8c2b0-5308-417b-9176-43c68829a65f--2021-0603_sponsored_basil-hayden_passion-fruit-bourbon-sour_recipe_not-branded_3x2_rocky-luten_031.jpg",
                     name: "Bulleit with Butterfly Wings",
                     steps: [
                         "1.5oz Bulleit Bourbon",
@@ -1016,7 +1075,8 @@ class Menu extends Component {
                         "Wet Shake",
                         "Strain into chilled coupe glass",
                         "Top with a light dusting of nutmeg powder"
-                    ]
+                    ],
+                    tags: []
                 },
                 {
                     id: 62,
@@ -1035,7 +1095,8 @@ class Menu extends Component {
                         "Shake",
                         "Fine Strain over ice into a Rocks glass",
                         "Garnish with a fresh Basil Leaf & fresh Lemon Wheel"
-                    ]
+                    ],
+                    tags: []
                 },
                 {
                     id: 63,
@@ -1053,7 +1114,8 @@ class Menu extends Component {
                         "Shake",
                         "Fine strain into chilled coupe",
                         "Garnish with 3 espresso beans floated together"
-                    ]
+                    ],
+                    tags: []
                 },
                 {
                     id: 64,
@@ -1073,7 +1135,8 @@ class Menu extends Component {
                         "Shake",
                         "Double Strain into chilled coupe",
                         "Garnish with Dehydrated Lime Wheel"
-                    ]
+                    ],
+                    tags: []
                 },
                 {
                     id: 65,
@@ -1091,7 +1154,8 @@ class Menu extends Component {
                         "Shake",
                         "Strain into Tajin rimmed rocks glass over new ice",
                         "Garnish with Grapefruit Peel"
-                    ]
+                    ],
+                    tags: []
                 },
                 {
                     id: 66,
@@ -1110,7 +1174,8 @@ class Menu extends Component {
                         "Wet Shake",
                         "Strain into chilled coupe",
                         "Dust top with Chai/Cinnamon dust"
-                    ]
+                    ],
+                    tags: []
                 },
                 {
                     id: 67,
@@ -1128,7 +1193,8 @@ class Menu extends Component {
                         "Shake",
                         "Fine strain into chilled coupe",
                         "Top with floated dehydrated lime wheel"
-                    ]
+                    ],
+                    tags: []
                 },
                 {
                     id: 68,
@@ -1149,10 +1215,298 @@ class Menu extends Component {
                         "Wet Shake",
                         "Strain into chilled coupe",
                         "Dust top with Cinnamon dust"
-                    ]
+                    ],
+                    tags: []
+                },
+                {
+                    id: 69,
+                    imageURL: "https://tasteandsee.com/wp-content/uploads/2015/12/Aperol-Punch-square-one-glass2-480x270.jpg",
+                    name: "APEROL PUNCH(HH)",
+                    steps: [
+                        "FILL. SM ROCKS W/ ICE ",
+                        "COMBINE IN SHAKER ",
+                        "loz Pink PeppercorN GIN",
+                        ".75oz lemon juice",
+                        ".25oz simple syrup",
+                        "SHAKE / POUR CONNNTS ",
+                        "DRIZZLE: ",
+                        "loz Aperol",
+                        "GARNISH",
+                        "3pc pink peppercorn on surface"
+                    ],
+                    tags: ["currentAtlas"]
+                },
+                {
+                    id: 70,
+                    imageURL: "https://oliviaskitchen.com/wp-content/uploads/2021/09/Classic-Moscow-Mule-with-Mint-2.jpg",
+                    name: "ATLAS MULE",
+                    steps: [
+                        "SM ROCKS GLASS ",
+                        "BUILD OVER ICE",
+                        "1.5oz Kettle One vodka",
+                        ".5oz Tio Pepe fino sherry",
+                        ".5oz lime juice",
+                        ".25oz ginger syrup*",
+                        "3oz Fever Tree ginger beer",
+                        "STIR TO COMBINE",
+                        "GARNISH",
+                        "7 slices of cucumber (matchstick)",
+                        "1pc sprig of fresh mint"
+                    ],
+                    tags: ["currentAtlas"]
+                },
+                {
+                    id: 71,
+                    imageURL: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzgYrg5Rtd8MpJ53usx1XXnIR9pqmzo4dbzg&s",
+                    name: "ATLAS OLD FASHIONED",
+                    steps: [
+                        "LG ROCKS GLASS ",
+                        "TEMPER 2inch ICE CUBE ",
+                        "COMBINE IN MIXING GLASS",
+                        "2oz Bulliet 10yr bourbon",
+                        ".5oz charred maple syrup*",
+                        "2 dash Angostura bitters",
+                        "2 dash Cacao bitters (Angostura)",
+                        "STIR",
+                        "STAMP ICE / ",
+                        "PLACE IN LG ROCKS GLASS ",
+                        "STRAIN MIXTURE",
+                        "GARNISH",
+                        "orange (press, slit, on rim)",
+                        "SMOKE INTO CLOCHE",
+                        "PLACE",
+                        "1pc",
+                        "Rosemary sprig, placed on board"
+                    ],
+                    tags: ["currentAtlas"]
+                },
+                {
+                    id: 72,
+                    imageURL: "https://punchdrink.com/wp-content/uploads/2022/10/Thumb-Green-Tabasco-Cocktail-Spicy-Margarita-Recipe.jpg",
+                    name: "BAG OF TRICKS",
+                    steps: [
+                        "CHILLED COUPE GLASS",
+                        "COMBINE IN SHAKER:",
+                        "1oz Don Julio blanco",
+                        "1oz Mezcal Esmarcand",
+                        "75oz lemon juice",
+                        ".75oz lemongrass & wasabi syrup ",
+                        "1oz egg whites",
+                        "DRY SNAKE / SHAKE / ",
+                        "STRAIN",
+                        "GARNISH",
+                        ".5g lime leaf & wasabi powder"
+                    ],
+                    tags: ["currentAtlas"]
+                },
+                {
+                    id: 73,
+                    imageURL: "https://domesticate-me.com/wp-content/uploads/2015/02/pomegranate-vodka-gimlet-cocktail.jpg",
+                    name: "BEST CASE SCENARIO (HH)",
+                    steps: [
+                        "CHILLED COUPE GLASS ",
+                        "COMBINE IN SHAKER:",
+                        "loz Ketel One",
+                        ".5 Cointreau",
+                        "1.5oz pomegranate juice",
+                        ".25oz lime juice",
+                        "SHAKE / DBL STRAIN",
+                        "GARNISH",
+                        "1pc lime wheel (Fresh) dropped into glass"
+                    ],
+                    tags: ["currentAtlas"]
+                },
+                {
+                    id: 74,
+                    imageURL: "https://pickledplum.com/wp-content/uploads/2024/06/espresso-martini-3-1200.jpg",
+                    name: "CARAJILLO",
+                    steps: [
+                        "CHILLED COUPE GLASS ",
+                        "COMBINE IN SHAKER:",
+                        ".5oz Ketel One vodka",
+                        "1.5oz Licor 43",
+                        "2oz Espresso (chilled)",
+                        "SHAKE / DBL STRAIN",
+                        "GARNISH",
+                        "3pc espresso beans on surface"
+                    ],
+                    tags: ["currentAtlas"]
+                },
+                {
+                    id: 75,
+                    imageURL: "https://www.liquor.com/thmb/1vw5Exyh10NJRQKQFmhIJmarRf0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/amaretto-sour-4000x4000-primary-ig-a49e20dfa0814f50bdaf3fd41e590a17.jpg",
+                    name: "CRY WOLF",
+                    steps: [
+                        "SM ROCKS GLASS ",
+                        "COMBINE IN SHAKER:",
+                        "1.5oz Bulliet bourbon",
+                        ".5oz Giffard Abricot",
+                        ".25oz Amaro Montenegro",
+                        ".75oz lemon juice",
+                        "loz egg whites",
+                        "DRY SHAKE / SHAKE / STRAIN OVER ICE",
+                        "GARNISH",
+                        "7 drops Angostura (artful design)"
+                    ],
+                    tags: ["currentAtlas"]
+                },
+                {
+                    id: 76,
+                    imageURL: "https://www.thespruceeats.com/thmb/PdokucbKig1Drn__rpBB7s-ytDA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/CucumberCocktails-GettyImages-697375590-5a44e34e89eacc0037e1dbf1.jpg",
+                    name: "CUCUMBER BUCK (0.0%)",
+                    steps: [
+                        "SM ROCKS GLASS ",
+                        "BUILD OVER ICE",
+                        "2oz strong steeped green tea*",
+                        "1.5oz lime juice",
+                        ".25oz ginger syrup*",
+                        "TOP",
+                        "3oz FT ginger beer",
+                        "STIR TO COMBINE ",
+                        "GARNISH",
+                        "7 slices cucumber (matchstick cut)",
+                        "1pc sprig of fresh mint"
+                    ],
+                    tags: ["currentAtlas"]
+                },
+                {
+                    id: 77,
+                    imageURL: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZEclCl55aO8Mx_dDQte_-tS0Z_kx56GsIcQ&s",
+                    name: "FANDANGO FIX (0.0%)",
+                    steps: [
+                        "COLLINS GLASS",
+                        "BUILD OVER ICE",
+                        "loz pomegranate juice",
+                        ".5oz lime juice",
+                        ".5oz passionfruit syrup (Giffard)",
+                        "TOP",
+                        "2oz FT tonic water",
+                        "2oz soda water",
+                        "STIR TO COMBINE",
+                        "GARNISH",
+                        "1pc lemon wheel (dehydrated)"
+                    ],
+                    tags: ["currentAtlas"]
+                },
+                {
+                    id: 78,
+                    imageURL: "https://thesuburbansoapbox.com/wp-content/uploads/2022/12/Paloma-Cocktail-2.jpg",
+                    name: "HIGHLANDER MARGARITA",
+                    steps: [
+                        "DB ROCKS GLASS",
+                        "(W/ TAJIN SALTED RIM)",
+                        "COMBINE IN SHAKER:",
+                        "2oz El Jimador blanco tequila",
+                        ".5oz Poire Williams (Giffard)",
+                        ".5oz grapefruit juice",
+                        ".7oz lime juice",
+                        ".3oz agave nectar",
+                        "SHAKE / DBL STRAIN",
+                        "GARNISH",
+                        "1 slice grapefruit (1/2 wheel, fresh)"
+                    ],
+                    tags: ["currentAtlas"]
+                },
+                {
+                    id: 79,
+                    imageURL: "https://www.pineappleandcoconut.com/wp-content/uploads/2021/03/Citrus-Passion-Fruit-Vodka-Soda5020.jpg",
+                    name: "JIMADOR HIGHBALL",
+                    steps: [
+                        "COLLINS GLASS",
+                        "BUILD OVER ICE:",
+                        "1.5oz El Jimador blanco tequila",
+                        ".5oz Giffard Passionfruit syrup",
+                        ".5oz lime juice",
+                        "TOP",
+                        "2oz Fever Tree Ginger Beer",
+                        "2oz soda water",
+                        "GARNISH",
+                        "sprig of fresh mint"
+                    ],
+                    tags: ["currentAtlas"]
+                },
+                {
+                    id: 80,
+                    imageURL: "https://foodduchess.com/wp-content/uploads/2019/05/Passionfruit-Gin-Spritzer00981.jpg",
+                    name: "PASSIONISTA",
+                    steps: [
+                        "CHAMPAGNE FLUTE ",
+                        "COMBINE IN SHAKER:",
+                        "1.5oz pink peppercorn gin*",
+                        ".5oz pomegranate juice",
+                        ".5oz Giffard passionfruit syrup",
+                        ".5oz lime juice",
+                        "SHAKE / DBL STRAIN",
+                        "TOP",
+                        "2oz bubbles (BTG spec)",
+                        "2oz passionfruit spuma*",
+                        "GARNISH",
+                        "3pc pink peppercorns (whole)"
+                    ],
+                    tags: ["currentAtlas"]
+                },
+                {
+                    id: 81,
+                    imageURL: "https://www.thecocktailproject.com/sites/default/files/styles/recipe_slider_img/public/incredible-hero-DeKuyper-Razzmatazz-Sangria-1.jpg.webp?itok=zgvTIMqH",
+                    name: "RAZZMADAZZLE (0.0%)",
+                    steps: [
+                        "BRANDY (SNIFTER) GLASS",
+                        "POUR INTO GLASS:",
+                        "2oz soda water",
+                        "COMBINE IN SHAKER:",
+                        ".75oz lemon juice",
+                        "1oz pomegranate juice ",
+                        "2pz pineapple juice",
+                        ".75oz hibiscus + raspberry syrup*",
+                        "SHAKE / POUR CONTENTS",
+                        "GARNISH",
+                        "1pc dehydrated lemon wheel"
+                    ],
+                    tags: ["currentAtlas"]
+                },
+                {
+                    id: 82,
+                    imageURL: "https://www.farmwifedrinks.com/wp-content/uploads/2021/11/Rye-Whiskey-Old-Fashioned-1.jpg",
+                    name: "ROLLING IN THE DEEP (BC)",
+                    steps: [
+                        "CHIILED COUPE GLASS ",
+                        "COMBINE IN MIXING GLASS",
+                        "1.5oz Whistle Pig PiggyBack rye",
+                        "1oz Cinzano Rosso",
+                        ".25oz Licor 43",
+                        "2 dash Angostura bitters",
+                        "ADD ICE",
+                        "STIR (LONG SITR) / STRAIN",
+                        "GARNISH",
+                        "orange peel (press, slit, on rim)"
+                    ],
+                    tags: ["currentAtlas"]
+                },
+                {
+                    id: 83,
+                    imageURL: "https://ginstonikem.cz/wp-content/uploads/2023/11/instagram96-1-768x768.webp",
+                    name: "VALENCIAN G+T",
+                    steps: [
+                        "LG ROCKS GLASS ",
+                        "COAT INSIDE WITH",
+                        "loz orange marmalade",
+                        "BUILD OVER ICE",
+                        "1.5oz Hendricks 'Grand Caberet'",
+                        ".5oz Tio Pepe fino sherry",
+                        ".25oz lemon juice",
+                        "STIR TO COMBINE",
+                        "TOP",
+                        "3oz Fever Tree Indian tonic",
+                        "GARNISH",
+                        "1pc grapefruit (1/2 wheel, fresh)"
+                    ],
+                    tags: ["currentAtlas"]
                 }
+
+
             ],
-            filterText: ""
+            filterText: "",
+            filterTags: ["currentAtlas"],
         };
     }
 
@@ -1163,18 +1517,32 @@ class Menu extends Component {
     render() {
         return (
             <div className='Menu'>
-                <input type="search" size="lg" className='InputGroup' onChange={this.updateFilter.bind(this)} placeholder="Search..."/>
-
-                    {this.state.data.filter((item) => {
+                <input type="search" size="lg" className='InputGroup' onChange={this.updateFilter.bind(this)} placeholder="Search..." />
+                <div className='itemArray'>
+                {this.state.data.filter((item) => {
+                    if (!this.state.filterTags.length || item.tags.some(value => this.state.filterTags.includes(value)))
                         if (this.state.filterText === "")
                             return item;
                         else if (
                             item.name.toLowerCase().includes(this.state.filterText.toLowerCase())
                         )
                             return item;
-                    }).map((item, i) => (
-                        <StoreItem {...item} key={i}/>
-                    ))}
+                }).sort((itemA, itemB) => {
+                    const nameA = itemA.name.toUpperCase(); // ignore upper and lowercase
+                    const nameB = itemB.name.toUpperCase(); // ignore upper and lowercase
+                    if (nameA < nameB) {
+                        return -1;
+                    }
+                    if (nameA > nameB) {
+                        return 1;
+                    }
+
+                    // names must be equal
+                    return 0;
+                }).map((item, i) => (
+                    <StoreItem {...item} key={i} />
+                ))}
+                </div>
             </div>
         )
     }

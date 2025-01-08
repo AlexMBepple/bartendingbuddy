@@ -33,13 +33,71 @@ h1 {
   margin: 10px;
 }
 
-section {
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
-width: 300px;
-margin: 10px;
 
-padding: 10px;
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  margin: 10px;
+  padding: 10px;
+  break-inside: avoid;
 }
+
+
+  @media screen and (min-width: 400px) and (max-width: 800px) {
+    .itemArray {
+      columns: 1;
+     }
+  }
+
+  
+
+  @media screen and (min-width: 800px) and (max-width: 1200px) {
+    .itemArray {
+      columns: 2;
+     }
+  }
+
+  @media screen and (min-width: 1200px) and (max-width: 1600px) {
+    .itemArray {
+      columns: 3;
+     }
+  }
+
+  @media screen and (min-width: 1600px) and (max-width: 2000px) {
+    .itemArray {
+      columns: 4;
+     }
+  }
+
+  @media screen and (min-width: 2000px) and (max-width: 2400px) {
+    .itemArray {
+      columns: 5;
+     }
+  }
+
+  @media screen and (min-width: 2400px) and (max-width: 2800px) {
+    .itemArray {
+      columns: 6;
+     }
+  }
+
+  @media screen and (min-width: 2800px) and (max-width: 3200px) {
+    .itemArray {
+      columns: 7;
+     }
+  }
+
+  @media screen and (min-width: 3200px) and (max-width: 3550px) {
+    .itemArray {
+      columns: 8;
+     }
+  }
+
+  @media screen and (min-width: 3600px) and (max-width: 4000px) {
+    .itemArray {
+      columns: 9;
+     }
+  }

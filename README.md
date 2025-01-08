@@ -31,8 +31,9 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## Future Improvements
 - Can move menu items into a database instead of hardcoding them in. Put it in some object database like mongoDB.
-- Host service so it is not a single local build but an available deployment.
 - Management UI to add remove and change recipies in the front end.
-- CSS and fromatting of the page so it doesnt jump around as much
+- add profile and alcholol filters as drop downs
+- pop open ingredients/steps
+- go to top button
 
 These can be useful if expanding and using the menu at multiple locations but is not necessary for the single location and deployment for a single inexperienced bartender. This is a tool not a product.
