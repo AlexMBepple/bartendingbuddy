@@ -33,6 +33,50 @@ h1 {
   margin: 10px;
 }
 
+button {
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #2c3539;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color:#36454f ;
+  padding: 3px;
+}
+
+.tagArray {
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #2c3539;
+  display: flex;
+  flex-direction: row;
+  width: 300px;
+  height: 50px;
+  margin: 10px;
+}
+
+.filtersTitle {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 1.5rem;
+  color:	#2c3539 ;
+  padding: 10PX;
+  text-align: left;
+  font-size: 1rem;
+}
+
+.tag {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color:#36454f ;
+  margin: 10px;
+  break-inside: avoid;
+  white-space: nowrap;
+}
 
 section {
   display: flex;
@@ -41,6 +85,7 @@ section {
   justify-content: center;
   width: 300px;
   margin: 10px;
+  margin-top: 0px;
   padding: 10px;
   break-inside: avoid;
 }

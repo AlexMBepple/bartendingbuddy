@@ -1506,7 +1506,7 @@ class Menu extends Component {
 
             ],
             filterText: "",
-            filterTags: ["currentAtlas"],
+            filterTags: [],
         };
     }
 
@@ -1514,18 +1514,37 @@ class Menu extends Component {
         this.setState({ filterText: event.target.value });
     }
 
+    updateFilterTags(event) {
+        const tag = event.target.id
+        let currentTags = this.state.filterTags
+        
+        if (this.state.filterTags.includes(tag))
+            currentTags = currentTags.filter(element => element !== tag)
+        else
+            currentTags.push(tag)
+        
+        this.setState({ filterTags : currentTags})
+    }
+
     render() {
         return (
             <div className='Menu'>
                 <input type="search" size="lg" className='InputGroup' onChange={this.updateFilter.bind(this)} placeholder="Search..." />
+                <div className='tagArray'>
+                    <div className='filtersTitle'>Applied Filters: </div>  
+                    {this.state.filterTags.map(tag => (
+                        <button className='tag' id={tag} onClick={this.updateFilterTags.bind(this)}>X {tag}</button>
+                        ))} 
+                </div>
+                <div className='filterButtons'>
+                    <button id="currentAtlas" onClick={this.updateFilterTags.bind(this)}> currentAtlas </button>
+                </div>
+                
                 <div className='itemArray'>
-                {this.state.data.filter((item) => {
-                    if (!this.state.filterTags.length || item.tags.some(value => this.state.filterTags.includes(value)))
-                        if (this.state.filterText === "")
-                            return item;
-                        else if (
-                            item.name.toLowerCase().includes(this.state.filterText.toLowerCase())
-                        )
+                {this.state.data
+                .filter((item) => {
+                    if (this.state.filterTags.length === 0|| item.tags.some(itemTag => this.state.filterTags.includes(itemTag)))  /* Filter for tags */
+                        if (this.state.filterText === "" || item.name.toLowerCase().includes(this.state.filterText.toLowerCase())) /* Filter for search */
                             return item;
                 }).sort((itemA, itemB) => {
                     const nameA = itemA.name.toUpperCase(); // ignore upper and lowercase
