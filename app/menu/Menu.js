@@ -1533,7 +1533,7 @@ class Menu extends Component {
                 <div className='tagArray'>
                     <div className='filtersTitle'>Applied Filters: </div>  
                     {this.state.filterTags.map(tag => (
-                        <button className='tag' id={tag} onClick={this.updateFilterTags.bind(this)}>X {tag}</button>
+                        <button className='tag' id={tag} key={tag} onClick={this.updateFilterTags.bind(this)}>X {tag}</button>
                         ))} 
                 </div>
                 <div className='filterButtons'>
