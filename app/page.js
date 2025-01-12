@@ -1,10 +1,11 @@
 'use client'
-import styles from './page.module.css'
+
+import './menu/Menu.css';
 import Menu from './menu/Menu'
 
 export default function Home() {
   return (
-    <main className={styles.main}>
+    <main className="main">
       <h1>BARTENDER BUDDY</h1>
       <Menu></Menu>
     </main>

@@ -1,7 +1,6 @@
 'use client'
 import { Component } from 'react';
 import { StoreItem } from './StoreItem';
-import './Menu.css';
 
 class Menu extends Component {
 
@@ -26,7 +25,7 @@ class Menu extends Component {
                         "Top with coke",
                         "Garnish: Lemon"
                     ],
-                    tags: []
+                    tags: ["Vodka", "Gin", "Liquer", "Tequila", "Rum"]
                 },
                 {
                     id: 2,
@@ -41,7 +40,7 @@ class Menu extends Component {
                         "double strain",
                         "Garnish: Olive"
                     ],
-                    tags: []
+                    tags: ["Vodka"]
                 },
                 {
                     id: 3,
@@ -53,7 +52,7 @@ class Menu extends Component {
                         "750ml Pear juice",
                         "1/2 cup Lime Juice"
                     ],
-                    tags: []
+                    tags: ["extra"]
                 },
                 {
                     id: 4,
@@ -67,7 +66,7 @@ class Menu extends Component {
                         "finish dehydrating in standard deck overnight. About 12hrs, no temp just heat from pilot light.",
                         "Store in dry storage, (30 day shelf life)"
                     ],
-                    tags: []
+                    tags: ["extra"]
                 },
                 {
                     id: 5,
@@ -80,7 +79,7 @@ class Menu extends Component {
                         "Bring to a boil",
                         "Cool"
                     ],
-                    tags: []
+                    tags: ["extra"]
                 },
                 {
                     id: 6,
@@ -99,7 +98,7 @@ class Menu extends Component {
                         "You may need to press the balls into the scoop to form the balls tighter.",
                         "Store in freezer (7 day shelf life)"
                     ],
-                    tags: []
+                    tags: ["extra"]
                 },
                 {
                     id: 7,
@@ -112,7 +111,7 @@ class Menu extends Component {
                         "let mix cool",
                         "Store dry in airtight container"
                     ],
-                    tags: []
+                    tags: ["extra"]
                 },
                 {
                     id: 8,
@@ -126,7 +125,7 @@ class Menu extends Component {
                         "After 2 hours remove tea bags and strain any tea leaves or solids out of the bourbon. ",
                         "Note - ratio of tea to bourbon is 1 tea per 4oz of bourbon"
                     ],
-                    tags: []
+                    tags: ["Whiskey"]
                 },
                 {
                     id: 9,
@@ -140,7 +139,7 @@ class Menu extends Component {
                         "Strain and let cool",
                         "Store in Fridge"
                     ],
-                    tags: []
+                    tags: ["extra"]
                 },
                 {
                     id: 10,
@@ -157,7 +156,7 @@ class Menu extends Component {
                         "Top with whipped cream"
 
                     ],
-                    tags: []
+                    tags: ["Liquer"]
                 },
                 {
                     id: 11,
@@ -176,7 +175,7 @@ class Menu extends Component {
                         "Top with whipped cream",
                         "Dust with cinnamon"
                     ],
-                    tags: []
+                    tags: ["Liquer"]
                 },
                 {
                     id: 12,
@@ -196,7 +195,7 @@ class Menu extends Component {
                         "Top with whipped cream",
                         "Garnish with cherry on a pick"
                     ],
-                    tags: []
+                    tags: ["Liquer"]
 
                 },
                 {
@@ -213,7 +212,7 @@ class Menu extends Component {
                         "Glass Mug/Hot drink setup",
                         "Serve and instruct guest to press after 3 minutes"
                     ],
-                    tags: []
+                    tags: ["0%"]
 
                 },
                 {
@@ -232,7 +231,7 @@ class Menu extends Component {
                         "Top with whipped cream",
                         "Plate and serve"
                     ],
-                    tags: []
+                    tags: ["Whiskey"]
                 },
                 {
                     id: 15,
@@ -251,7 +250,7 @@ class Menu extends Component {
                         "Top with whipped cream",
                         "Garnish with orange half wheel"
                     ],
-                    tags: []
+                    tags: ["Liquer"]
                 },
                 {
                     id: 16,
@@ -267,7 +266,7 @@ class Menu extends Component {
                         "Place snifter resting on the glass mug",
                         "Plate and serve"
                     ],
-                    tags: []
+                    tags: ["Liquer"]
                 },
                 {
                     id: 17,
@@ -286,7 +285,7 @@ class Menu extends Component {
                         "add Stellers Jay Brut",
                         "Garnish placed inside cocktail - Orange wheel smoked in Josper"
                     ],
-                    tags: []
+                    tags: ["Liquer"]
                 },
                 {
                     id: 18,
@@ -305,7 +304,7 @@ class Menu extends Component {
                         "Top with soda water",
                         "Garnish with cucumber on rim"
                     ],
-                    tags: []
+                    tags: ["Liquer"]
                 },
                 {
                     id: 19,
@@ -324,7 +323,7 @@ class Menu extends Component {
                         "Add ice and shake till chilled",
                         "Strain into rocks glass"
                     ],
-                    tags: []
+                    tags: ["Gin"]
                 },
                 {
                     id: 20,
@@ -345,7 +344,7 @@ class Menu extends Component {
                         "add Steller Jays Brut",
                         "Garnish placed inside cocktail - Rosemary sprig with cranberries"
                     ],
-                    tags: []
+                    tags: ["Vodka"]
                 },
                 {
                     id: 21,
@@ -370,7 +369,7 @@ class Menu extends Component {
                         "if cocktail is a double times Dark Rum and Grand Marnier by 2"
 
                     ],
-                    tags: []
+                    tags: ["Rum", "Liquer"]
                 },
                 {
                     id: 22,
@@ -392,7 +391,7 @@ class Menu extends Component {
                         "Top with soda",
                         "Garnish with apple fan"
                     ],
-                    tags: []
+                    tags: ["Vodka", "Liquer"]
                 },
                 {
                     id: 23,
@@ -412,7 +411,7 @@ class Menu extends Component {
                         "Add rest of ingredients to shaker with ice",
                         "Shake and strain into coupe glass",
                     ],
-                    tags: []
+                    tags: ["Tequila"]
                 },
                 {
                     id: 24,
@@ -431,7 +430,7 @@ class Menu extends Component {
                         "Place in smoke box and smoke with house made Josper Smoke chips",
                         "Bring box with coctail to table and open in front of guest"
                     ],
-                    tags: []
+                    tags: ["Whiskey"]
                 },
                 {
                     id: 25,
@@ -453,7 +452,7 @@ class Menu extends Component {
                         "Give the cocktail a quick agitaiton with a bar spoon to mix the ginger beer",
                         "Garnish with a cucumber slice and a mint sprig"
                     ],
-                    tags: []
+                    tags: ["Vodka"]
                 },
                 {
                     id: 26,
@@ -473,7 +472,7 @@ class Menu extends Component {
                         "Pour second 0.25oz of tequila in lime rind",
                         "ignight the cinamon falling over the drink in front of guest"
                     ],
-                    tags: []
+                    tags: ["Tequila", "Liquer"]
                 },
                 {
                     id: 27,
@@ -490,7 +489,7 @@ class Menu extends Component {
                         "Shake and strain into chilled martini glass",
                         "Garnish with 3 pink grapefruit granita balls"
                     ],
-                    tags: []
+                    tags: ["Vodka", "Liquer"]
                 },
                 {
                     id: 28,
@@ -507,7 +506,7 @@ class Menu extends Component {
                         "Shake and strain into rocks glass with new ice",
                         "Garnish with orange twist"
                     ],
-                    tags: []
+                    tags: ["Gin", "Liquer"]
                 },
                 {
                     id: 29,
@@ -526,7 +525,7 @@ class Menu extends Component {
                         "Strain into rinsed glass over a 2x2 Kodama ice cube",
                         "Garnish with Josper smoked orange wheel"
                     ],
-                    tags: []
+                    tags: ["Gin", "Liquer"]
                 },
                 {
                     id: 30,
@@ -546,7 +545,7 @@ class Menu extends Component {
                         "Using a hard coaster or card stock paper, cover 7/8ths of the glass and dust nutmeg over the exposed portion",
                         "Garnish with star anise in the middle of the glass"
                     ],
-                    tags: []
+                    tags: ["Whiskey"]
                 },
                 {
                     id: 31,
@@ -563,7 +562,7 @@ class Menu extends Component {
                         "Strain into rocks glass over a 2x2 Kodama ice cube",
                         "Garnish with half orange wheel"
                     ],
-                    tags: []
+                    tags: ["Gin", "Liquer"]
                 },
                 {
                     id: 32,
@@ -576,7 +575,7 @@ class Menu extends Component {
                         "Build in glencairn glasses",
                         "theres a story behind each scotch, ask your server for more information"
                     ],
-                    tags: []
+                    tags: ["Whiskey"]
                 },
                 {
                     id: 33,
@@ -596,7 +595,7 @@ class Menu extends Component {
                         "Stir",
                         "Garnish with celery stick and lime wheel"
                     ],
-                    tags: []
+                    tags: ["Vodka"]
                 },
                 {
                     id: 34,
@@ -615,7 +614,7 @@ class Menu extends Component {
                         "Garnish with Josper Smoked Orange Wheel"
 
                     ],
-                    tags: []
+                    tags: ["Gin", "Liquer"]
                 },
                 {
                     id: 35,
@@ -635,7 +634,7 @@ class Menu extends Component {
                         "Shake and strain into rocks glass with new ice",
                         "Garnish with orange wheel and 1 dash of 5 spice"
                     ],
-                    tags: []
+                    tags: ["Gin", "Liquer"]
                 },
                 {
                     id: 37,
@@ -652,7 +651,7 @@ class Menu extends Component {
                         "Strain into a rocks glass over an ice orb",
                         "Garnish with flamed orange twist"
                     ],
-                    tags: []
+                    tags: ["Tequila"]
                 },
                 {
                     id: 38,
@@ -664,7 +663,7 @@ class Menu extends Component {
                         "Build",
                         "Pour over ice in rocks glass"
                     ],
-                    tags: []
+                    tags: ["Whiskey"]
                 },
                 {
                     id: 39,
@@ -682,7 +681,7 @@ class Menu extends Component {
                         "Shake and strain into Coupe glass with ice",
                         "Add 3 drops of bitters to the foam"
                     ],
-                    tags: []
+                    tags: ["Whiskey"]
                 },
                 {
                     id: 40,
@@ -702,7 +701,7 @@ class Menu extends Component {
                         "rub warm orange oils around the rim of the glass",
                         "Drop peel into glass"
                     ],
-                    tags: []
+                    tags: ["Whiskey"]
                 },
                 {
                     id: 41,
@@ -721,7 +720,7 @@ class Menu extends Component {
                         "Shake and strain into rocks glass with new ice",
                         "Garnish with lime wheel"
                     ],
-                    tags: []
+                    tags: ["Tequila", "Liquer"]
                 },
                 {
                     id: 42,
@@ -738,7 +737,7 @@ class Menu extends Component {
                         "Strain into rocks glass over a 2x2 Kodama ice cube",
                         "Garnish with orange zest"
                     ],
-                    tags: []
+                    tags: ["Gin", "Liquer"]
                 },
                 {
                     id: 43,
@@ -754,7 +753,7 @@ class Menu extends Component {
                         "Top with Steller Jays Brut",
                         "Garnish with Half orange Wheel"
                     ],
-                    tags: []
+                    tags: ["Liquer"]
                 },
                 {
                     id: 44,
@@ -769,7 +768,7 @@ class Menu extends Component {
                         "Strain into chilled martini glass",
                         "garnish with a lemon curl"
                     ],
-                    tags: []
+                    tags: ["Gin"]
                 },
                 {
                     id: 45,
@@ -787,7 +786,7 @@ class Menu extends Component {
                         "Stir to mix layers",
                         "Garnish with 1 mint leaf, and 1 lime wedge",
                     ],
-                    tags: []
+                    tags: ["Rum"]
                 },
                 {
                     id: 46,
@@ -804,7 +803,7 @@ class Menu extends Component {
                         "Strain into chilled Martini glass",
                         "Garnish with 3 olives on pick"
                     ],
-                    tags: []
+                    tags: ["Gin"]
                 },
                 {
                     id: 47,
@@ -820,7 +819,7 @@ class Menu extends Component {
                         "Strain into chilled martini glass",
                         "Garnish with lemon curl"
                     ],
-                    tags: []
+                    tags: ["Gin"]
                 },
                 {
                     id: 48,
@@ -840,7 +839,7 @@ class Menu extends Component {
                         "Small pinch of salt over drink",
                         "Garnish with lime wheel"
                     ],
-                    tags: []
+                    tags: ["Tequila"]
                 },
                 {
                     id: 49,
@@ -856,7 +855,7 @@ class Menu extends Component {
                         "Strain into chilled martini glass",
                         "Garnish with lemon curl"
                     ],
-                    tags: []
+                    tags: ["Gin"]
                 },
                 {
                     id: 50,
@@ -873,7 +872,7 @@ class Menu extends Component {
                         "Strain into chilled martini glass",
                         "Garnish with cherry on a pick"
                     ],
-                    tags: []
+                    tags: ["Whiskey"]
                 },
                 {
                     id: 51,
@@ -892,7 +891,7 @@ class Menu extends Component {
                         "Strain into chilled martini glass",
                         "Garnish with orange peel wrapped cherry on a pick"
                     ],
-                    tags: []
+                    tags: ["Whiskey"]
                 },
                 {
                     id: 52,
@@ -912,7 +911,7 @@ class Menu extends Component {
                         "Strain into rimmed rocks glass with new ice",
                         "Garnish with lime wedge on rim"
                     ],
-                    tags: []
+                    tags: ["Tequila"]
                 },
                 {
                     id: 53,
@@ -930,7 +929,7 @@ class Menu extends Component {
                         "Strain into chilled martini glass",
                         "Garnish with 3 beans"
                     ],
-                    tags: []
+                    tags: ["Vodka"]
                 },
                 {
                     id: 54,
@@ -949,7 +948,7 @@ class Menu extends Component {
                         "Add Stellers Jay Brut",
                         "Garnish With Lemon Twist resting on rim"
                     ],
-                    tags: []
+                    tags: ["Gin"]
                 },
                 {
                     id: 55,
@@ -967,7 +966,7 @@ class Menu extends Component {
                         "Strain into chilled martini glass",
                         "Garnish with a lime wheel on rim"
                     ],
-                    tags: []
+                    tags: ["Vodka"]
                 },
                 {
                     id: 56,
@@ -986,7 +985,7 @@ class Menu extends Component {
                         "Strain into a salt rimmed rocks glass with new ice",
                         "garnish with a lime wedge on the rim"
                     ],
-                    tags: []
+                    tags: ["Tequila"]
                 },
                 {
                     id: 57,
@@ -1005,7 +1004,7 @@ class Menu extends Component {
                         "Strain into a single rocks glass with ice",
                         "Garnish with rosemary Sprig"
                     ],
-                    tags: []
+                    tags: ["Liquer"]
                 },
                 {
                     id: 58,
@@ -1021,7 +1020,7 @@ class Menu extends Component {
                         "Pour into double rocks glass with large ice mould",
                         "Zest orange peel over drink"
                     ],
-                    tags: []
+                    tags: ["Whiskey"]
                 },
                 {
                     id: 59,
@@ -1040,7 +1039,7 @@ class Menu extends Component {
                         "Fine Strain into brandy glass",
                         "Garnish with mint sprig, fresh raspberry, and anm orange twist"
                     ],
-                    tags: []
+                    tags: ["Rum"]
                 },
                 {
                     id: 60,
@@ -1054,7 +1053,7 @@ class Menu extends Component {
                         "Build in Copa or Tall Collins Glass",
                         "Garnish with a wedge of grapefruit"
                     ],
-                    tags: []
+                    tags: ["Gin"]
                 },
                 {
                     id: 61,
@@ -1076,7 +1075,7 @@ class Menu extends Component {
                         "Strain into chilled coupe glass",
                         "Top with a light dusting of nutmeg powder"
                     ],
-                    tags: []
+                    tags: ["Whiskey"]
                 },
                 {
                     id: 62,
@@ -1096,7 +1095,7 @@ class Menu extends Component {
                         "Fine Strain over ice into a Rocks glass",
                         "Garnish with a fresh Basil Leaf & fresh Lemon Wheel"
                     ],
-                    tags: []
+                    tags: ["Whiskey"]
                 },
                 {
                     id: 63,
@@ -1115,7 +1114,7 @@ class Menu extends Component {
                         "Fine strain into chilled coupe",
                         "Garnish with 3 espresso beans floated together"
                     ],
-                    tags: []
+                    tags: ["Vodka"]
                 },
                 {
                     id: 64,
@@ -1136,7 +1135,7 @@ class Menu extends Component {
                         "Double Strain into chilled coupe",
                         "Garnish with Dehydrated Lime Wheel"
                     ],
-                    tags: []
+                    tags: ["Gin"]
                 },
                 {
                     id: 65,
@@ -1155,7 +1154,7 @@ class Menu extends Component {
                         "Strain into Tajin rimmed rocks glass over new ice",
                         "Garnish with Grapefruit Peel"
                     ],
-                    tags: []
+                    tags: ["Tequila"]
                 },
                 {
                     id: 66,
@@ -1175,7 +1174,7 @@ class Menu extends Component {
                         "Strain into chilled coupe",
                         "Dust top with Chai/Cinnamon dust"
                     ],
-                    tags: []
+                    tags: ["Gin"]
                 },
                 {
                     id: 67,
@@ -1194,7 +1193,7 @@ class Menu extends Component {
                         "Fine strain into chilled coupe",
                         "Top with floated dehydrated lime wheel"
                     ],
-                    tags: []
+                    tags: ["Tequila"]
                 },
                 {
                     id: 68,
@@ -1216,7 +1215,7 @@ class Menu extends Component {
                         "Strain into chilled coupe",
                         "Dust top with Cinnamon dust"
                     ],
-                    tags: []
+                    tags: ["Rum"]
                 },
                 {
                     id: 69,
@@ -1234,7 +1233,7 @@ class Menu extends Component {
                         "GARNISH",
                         "3pc pink peppercorn on surface"
                     ],
-                    tags: ["currentAtlas"]
+                    tags: ["currentAtlas", "Gin"]
                 },
                 {
                     id: 70,
@@ -1253,7 +1252,7 @@ class Menu extends Component {
                         "7 slices of cucumber (matchstick)",
                         "1pc sprig of fresh mint"
                     ],
-                    tags: ["currentAtlas"]
+                    tags: ["currentAtlas", "Vodka"]
                 },
                 {
                     id: 71,
@@ -1278,7 +1277,7 @@ class Menu extends Component {
                         "1pc",
                         "Rosemary sprig, placed on board"
                     ],
-                    tags: ["currentAtlas"]
+                    tags: ["currentAtlas", "Whiskey"]
                 },
                 {
                     id: 72,
@@ -1297,7 +1296,7 @@ class Menu extends Component {
                         "GARNISH",
                         ".5g lime leaf & wasabi powder"
                     ],
-                    tags: ["currentAtlas"]
+                    tags: ["currentAtlas", "Tequila"]
                 },
                 {
                     id: 73,
@@ -1314,7 +1313,7 @@ class Menu extends Component {
                         "GARNISH",
                         "1pc lime wheel (Fresh) dropped into glass"
                     ],
-                    tags: ["currentAtlas"]
+                    tags: ["currentAtlas", "Vodka"]
                 },
                 {
                     id: 74,
@@ -1330,7 +1329,7 @@ class Menu extends Component {
                         "GARNISH",
                         "3pc espresso beans on surface"
                     ],
-                    tags: ["currentAtlas"]
+                    tags: ["currentAtlas", "Vodka"]
                 },
                 {
                     id: 75,
@@ -1348,7 +1347,7 @@ class Menu extends Component {
                         "GARNISH",
                         "7 drops Angostura (artful design)"
                     ],
-                    tags: ["currentAtlas"]
+                    tags: ["currentAtlas", "Whiskey"]
                 },
                 {
                     id: 76,
@@ -1367,7 +1366,7 @@ class Menu extends Component {
                         "7 slices cucumber (matchstick cut)",
                         "1pc sprig of fresh mint"
                     ],
-                    tags: ["currentAtlas"]
+                    tags: ["currentAtlas", "0%"]
                 },
                 {
                     id: 77,
@@ -1386,7 +1385,7 @@ class Menu extends Component {
                         "GARNISH",
                         "1pc lemon wheel (dehydrated)"
                     ],
-                    tags: ["currentAtlas"]
+                    tags: ["currentAtlas", "0%"]
                 },
                 {
                     id: 78,
@@ -1405,7 +1404,7 @@ class Menu extends Component {
                         "GARNISH",
                         "1 slice grapefruit (1/2 wheel, fresh)"
                     ],
-                    tags: ["currentAtlas"]
+                    tags: ["currentAtlas", "Tequila"]
                 },
                 {
                     id: 79,
@@ -1423,7 +1422,7 @@ class Menu extends Component {
                         "GARNISH",
                         "sprig of fresh mint"
                     ],
-                    tags: ["currentAtlas"]
+                    tags: ["currentAtlas", "Tequila"]
                 },
                 {
                     id: 80,
@@ -1443,7 +1442,7 @@ class Menu extends Component {
                         "GARNISH",
                         "3pc pink peppercorns (whole)"
                     ],
-                    tags: ["currentAtlas"]
+                    tags: ["currentAtlas", "Gin"]
                 },
                 {
                     id: 81,
@@ -1462,7 +1461,7 @@ class Menu extends Component {
                         "GARNISH",
                         "1pc dehydrated lemon wheel"
                     ],
-                    tags: ["currentAtlas"]
+                    tags: ["currentAtlas", "0%"]
                 },
                 {
                     id: 82,
@@ -1480,7 +1479,7 @@ class Menu extends Component {
                         "GARNISH",
                         "orange peel (press, slit, on rim)"
                     ],
-                    tags: ["currentAtlas"]
+                    tags: ["currentAtlas", "Whiskey"]
                 },
                 {
                     id: 83,
@@ -1500,7 +1499,7 @@ class Menu extends Component {
                         "GARNISH",
                         "1pc grapefruit (1/2 wheel, fresh)"
                     ],
-                    tags: ["currentAtlas"]
+                    tags: ["currentAtlas", "Gin"]
                 }
 
 
@@ -1538,12 +1537,21 @@ class Menu extends Component {
                 </div>
                 <div className='filterButtons'>
                     <button id="currentAtlas" onClick={this.updateFilterTags.bind(this)}> currentAtlas </button>
+                    <button id="Gin" onClick={this.updateFilterTags.bind(this)}> Gin </button>
+                    <button id="Vodka" onClick={this.updateFilterTags.bind(this)}> Vodka </button>
+                    <button id="Tequila" onClick={this.updateFilterTags.bind(this)}> Tequila </button>
+                </div>
+                <div className='filterButtons'>
+                    <button id="Rum" onClick={this.updateFilterTags.bind(this)}> Rum </button>
+                    <button id="Whiskey" onClick={this.updateFilterTags.bind(this)}> Whiskey </button>
+                    <button id="0%" onClick={this.updateFilterTags.bind(this)}> 0% </button>
+                    <button id="Liquer" onClick={this.updateFilterTags.bind(this)}> Liquer </button>
                 </div>
                 
                 <div className='itemArray'>
                 {this.state.data
                 .filter((item) => {
-                    if (this.state.filterTags.length === 0|| item.tags.some(itemTag => this.state.filterTags.includes(itemTag)))  /* Filter for tags */
+                    if (this.state.filterTags.length === 0|| !this.state.filterTags.some(itemTag => !item.tags.includes(itemTag)))  /* Filter for tags  item.tags.some(itemTag => this.state.filterTags.includes(itemTag))*/
                         if (this.state.filterText === "" || item.name.toLowerCase().includes(this.state.filterText.toLowerCase())) /* Filter for search */
                             return item;
                 }).sort((itemA, itemB) => {
