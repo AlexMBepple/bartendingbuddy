@@ -254,7 +254,7 @@ class Menu extends Component {
                 },
                 {
                     id: 16,
-                    imageURL: "https://www.cbc.ca/stevenandchris/content/images/bluberry-tea-cocktail.jpg",
+                    imageURL: "https://www.allrecipes.com/thmb/9XSisaQH6-bsAxg4HIhZql1ooo4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/222557-blueberry-tea-cocktail-VAT-Beauty-4x3-12b2fa84bd634351b64aad0438f4e981.jpg",
                     name: "Blueberry tea",
                     steps: [
                         "0.50z Grand Marnier",
@@ -415,7 +415,7 @@ class Menu extends Component {
                 },
                 {
                     id: 24,
-                    imageURL: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzgYrg5Rtd8MpJ53usx1XXnIR9pqmzo4dbzg&s",
+                    imageURL: "https://www.liquor.com/thmb/rxbQEXR-CQpExjfS8xtOAWXLovM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/bourbon-old-fashioned-4000x4000-primary-ig-f0ce04bec6754db187ab1e8a16fd45c3.jpg",
                     name: "Atlas Old Fashioned",
                     steps: [
                         "2oz Johnnie Walker Black",
@@ -493,7 +493,7 @@ class Menu extends Component {
                 },
                 {
                     id: 28,
-                    imageURL: "https://dartmouthfoodfestival.com/wp-content/uploads/2020/12/ciao-bella-cocktail-Salcombe-Gin_fullevent.jpg",
+                    imageURL: "https://ciaobellahamilton.ca/wp-content/uploads/2024/09/Ciao-Bella-Pistachio-Sour.jpg",
                     name: "Ciao Bella",
                     steps: [
                         "1oz Gordons gin",
@@ -970,7 +970,7 @@ class Menu extends Component {
                 },
                 {
                     id: 56,
-                    imageURL: "https://images.liquorapps.com/Images/Recipes/bg/423fbcdb-ee2a-42c6-a2dd-e071e8962e70..jpg",
+                    imageURL: "https://images.ctfassets.net/6zncp07wiqyq/6azSmDcxHM0yWP43Ky01Ea/11acf632be0c51639a720fccb1081b27/media_0ddcd4n0_don_repo_margarita_dba_recipe_570x334.jpg",
                     name: "Don Margarita",
                     steps: [
                         "1.5oz Don Julio Blanco Tequila",
@@ -1256,7 +1256,7 @@ class Menu extends Component {
                 },
                 {
                     id: 71,
-                    imageURL: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzgYrg5Rtd8MpJ53usx1XXnIR9pqmzo4dbzg&s",
+                    imageURL: "https://www.liquor.com/thmb/rxbQEXR-CQpExjfS8xtOAWXLovM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/bourbon-old-fashioned-4000x4000-primary-ig-f0ce04bec6754db187ab1e8a16fd45c3.jpg",
                     name: "ATLAS OLD FASHIONED",
                     steps: [
                         "LG ROCKS GLASS ",
@@ -1370,7 +1370,7 @@ class Menu extends Component {
                 },
                 {
                     id: 77,
-                    imageURL: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZEclCl55aO8Mx_dDQte_-tS0Z_kx56GsIcQ&s",
+                    imageURL: "https://www.twistedalchemy.com/cdn/shop/articles/passionate-pomegranate-margarita-121400.jpg?v=1727709612",
                     name: "FANDANGO FIX (0.0%)",
                     steps: [
                         "COLLINS GLASS",
@@ -1483,7 +1483,7 @@ class Menu extends Component {
                 },
                 {
                     id: 83,
-                    imageURL: "https://ginstonikem.cz/wp-content/uploads/2023/11/instagram96-1-768x768.webp",
+                    imageURL: "https://gogoespana.com/wp-content/uploads/2023/12/40829779_m-e1589880874928.jpg",
                     name: "VALENCIAN G+T",
                     steps: [
                         "LG ROCKS GLASS ",
